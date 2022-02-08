@@ -39,7 +39,7 @@ public class MyUrlResolver implements UrlResolver {
     @NotNull
     @Override
     public Iterable<UrlTargetInfo> resolve(@NotNull UrlResolveRequest urlResolveRequest) {
-        return null;
+        return Collections.emptyList(); // Implement for navigation from URL to target
     }
 
     private static class MyTarget implements UrlTargetInfo {
