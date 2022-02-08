@@ -27,7 +27,7 @@ public class MyUrlResolver implements UrlResolver {
     @NotNull
     @Override
     public List<String> getSupportedSchemes() {
-        return List.of("rsocket");
+        return List.of("rsocket://");
     }
 
     @NotNull
